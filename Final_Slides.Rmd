@@ -119,7 +119,7 @@ es <- species %>%
     title = "Endangered vs in recovery species by state in the Western Region",
     subtitle = "*Not including data from Death Valley National Park or Yellowstone National Park",
     x = "States",
-    y = "Count"
+    y = "Number of species"
   )
 
  es + scale_fill_manual(values = c("Endangered" = "#ADDFF9",
